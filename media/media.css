@@ -1,0 +1,84 @@
+@media (max-width: 1600px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 990px;
+    }
+    .back_fon {
+        background-position: -1142px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 760px;
+    }
+    .banner {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .back_fon {
+        display: flex;
+        align-items: flex-end;
+        height: 100vh;
+        background-position: -1429px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 646px) {
+    .back_fon {
+        background: url(../img/mobile.png) no-repeat;
+        height: 100vh;
+    }
+    .banner__m {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .banner {
+        text-align: center;
+    }
+    .name__your {
+        background-color: #bfbfbe;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .back_fon {
+        background-position: -72px;
+    }
+    .name__your {
+        padding: 15px 189px 16px 12px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .back_fon {
+        background-position: -129px;
+    }
+    .banner__title {
+        font-size: 28px;
+    }
+    .banner__subtitle {
+        font-size: 28px;
+    }
+    .banner__giv {
+        font-size: 21px;
+    }
+    .name__your {
+        padding: 15px 135px 16px 12px;
+    }
+    .armor__detail {
+        font-size: 11px;
+    }
+}

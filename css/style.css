@@ -1,0 +1,99 @@
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .container {
+        max-width: 1440px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .back_fon {
+        background: url(../img/1920.png) no-repeat center/cover;
+        min-height: 100vh;
+        height: 724px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .banner__title {
+        font-size: 32px;
+        font-weight: bold;
+        color: #ff0821;
+        text-transform: uppercase;
+        padding-bottom: 16px;
+    }
+    
+    .banner__subtitle {
+        font-size: 32px;
+        font-weight: 500;
+        color: #1f000a;
+        padding-bottom: 20px;
+    }
+    
+    .august__but {
+        background: none;
+        padding: 17px 20px 15px 20px;
+        border: 1px solid #ff0821;
+        color: #ff0821;
+        font-size: 14px;
+    }
+    
+    .banner__giv {
+        padding-top: 18px;
+        color: #1f000a;
+        font-weight: bold;
+        font-size: 25px;
+        padding-bottom: 14px;
+    }
+    
+    .giv__red {
+        color: #ff0821;
+    }
+    
+    .banner__name {
+        padding: 14px 0px 16px 0px;
+    }
+    
+    .banner__link a {
+        text-decoration: none;
+        color: #7a6c6a;
+        font-size: 14px;
+    }
+    
+    .banner__link a:hover {
+        text-decoration: underline;
+    }
+    
+    .name__your {
+        font-weight: 600;
+        padding: 15px 262px 16px 12px;
+        font-size: 14px;
+        background-color: #b9ac9c;
+        border: 1px solid #fcf7f0;
+    }
+    
+     ::-webkit-input-placeholder {
+        color: #2d2924;
+    }
+    
+    .know__but {
+        padding: 16px 22px 15px 20px;
+        color: #ffffff;
+        background-color: #ff0821;
+        border: none;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 17px 0px 17px 0px;
+    }
+    
+    .know__but:hover {
+        background-color: #e6051b;
+    }
+    
+    .armor__detail {
+        color: #221e19;
+        font-size: 14px;
+    }
